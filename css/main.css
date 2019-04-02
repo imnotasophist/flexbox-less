@@ -193,3 +193,20 @@ body .wedo1 .left {
 body .wedo1 .right {
   max-width: 50%;
 }
+body .portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .portfolio .container-filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .portfolio .container-filter div {
+  width: 200px;
+  height: 150px;
+  background: #868686;
+  border: 1px solid #000;
+}
